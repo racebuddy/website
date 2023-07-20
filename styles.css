@@ -57,6 +57,7 @@ section {
 }
 .header__menu {
   padding-top: 20px;
+  display: none
 }
 .header__menu .btn {
   margin-left: 20px;
