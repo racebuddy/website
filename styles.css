@@ -4,6 +4,8 @@
   --color-light-blue: #98c6d6;
   --color-dark-blue: #131334;
   --color-red: #f11f21;
+  --color-success: #88e588;
+  --color-error: #f25959;
   --font-family-heading: 'Faster One', cursive;
   --bs-heading-color: #131334;
 }
@@ -151,10 +153,21 @@ section {
 
 /* CONTACT */
 .contact {
-  display: none;
   background-color: #131334;
   color: #fff;
 }
 .contact .container {
   max-width: 900px;
+}
+.form-success,
+.form-error {
+  color: #fff; 
+  font-weight: 700;
+  display: none;
+  padding: 10px 20px;
+  border: 2px solid var(--color-success);
+  margin-top: 20px;
+}
+.form-error {
+  border-color: var(--color-error);
 }
